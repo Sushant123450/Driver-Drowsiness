@@ -1,0 +1,12 @@
+1. This project contain MySQL Database connectivity.
+MySQL installation required to use Save, Show and delete features for Drivers database.
+
+2. If you want to use program without MySql Installation comment out the Connrction part
+
+3. Auto Callibrate Feature Stil Works without Database Connection.
+
+4. Auto Calibrate Feature will take upto 10 seconds to show result. So be paitent.
+
+
+Author :- 
+Sushant Kumar
