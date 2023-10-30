@@ -28,7 +28,7 @@ flag = 0
 
 detect = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(
-    "Python\\Driver Drowsiness\\shape_predictor_68_face_landmarks.dat")
+    "shape_predictor_68_face_landmarks.dat")
 
 
 def ear(eye):
@@ -180,7 +180,7 @@ def Start_program():
     Desired_Frame_rate = 60
     frame_interval = 1.0/Desired_Frame_rate
     pygame.mixer.init()
-    Alert = pygame.mixer.Sound("Python\\Driver Drowsiness\\beep-06.wav")
+    Alert = pygame.mixer.Sound("beep-06.wav")
 
     Video = cv2.VideoCapture(0)
     start_time = time.time()
